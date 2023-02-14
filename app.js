@@ -1,6 +1,6 @@
 document.querySelector("#city-options").addEventListener('input', e => {
   const city = document.getElementById('city-options').value;
-  const dataForm = document.querySelector('#post_options')
+  const dataForm = document.querySelector('#post-options')
   dataForm.innerHTML = ''
 
   $.ajax({
