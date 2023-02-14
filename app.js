@@ -1,5 +1,4 @@
 document.querySelector("#city-options").addEventListener('input', e => {
-  console.log("мур")
   const city = document.getElementById('city-options').value;
   const dataForm = document.querySelector('#post_options')
   dataForm.innerHTML = ''
