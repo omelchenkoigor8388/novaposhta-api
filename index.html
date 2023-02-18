@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Working with Pochta Api</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<meta charset="UTF-8">
+	<title>Working with Pochta Api</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
-<body>
-  <form>
-		<label for="name">Введіть назву населиного пункта</label>
-		<input type="text" id="city-options" placeholder="Київ">
-		<br><br>
-		<label for="name">Виберіть відділення</label>
-		<select class="one" id="post-options">
 
-		</select>
+<body>
+
+	<h1>Виберіть відділення пошти:</h1>
+
+	<form>
+		<label for="city">Введіть назву населеного пункту:</label>
+		<input type="text" id="city-options" placeholder="Назва населеного пункту">
+
+		<br><br>
+
+		<label for="post">Виберіть відділення:</label>
+		<select class="one" id="post-options"></select>
 	</form>
 
-  <script src="app.js"></script>	
+	<script src="app.js"></script>
+
 </body>
+
 </html>
